@@ -1,0 +1,20 @@
+{
+  "name": "aula_node",
+  "version": "1.0.0",
+  "description": "Aplicação Node para teste",
+  "main": "server.js",
+  "scripts": {
+    "debug": "nodemon --inspect server.js",
+    "test": "jest"
+  },
+  "author": "Ailton.Melo",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.0",
+    "swagger-ui-express": "^4.1.4"
+  },
+  "devDependencies": {
+    "jest": "^26.1.0"
+  }
+}
